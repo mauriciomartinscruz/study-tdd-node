@@ -1,0 +1,25 @@
+{
+  "name": "study-tdd-node",
+  "version": "1.0.0",
+  "description": "Study about Login JWT and TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciomartinscruz/study-tdd-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciomartinscruz/study-tdd-node/issues"
+  },
+  "homepage": "https://github.com/mauriciomartinscruz/study-tdd-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.17.0",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
