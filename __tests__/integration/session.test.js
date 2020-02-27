@@ -70,7 +70,7 @@ describe('Authentication', () => {
       .get('/dashboard');
 
     expect(response.status).toBe(401);
-  })
+  });
 
   it('Should not be able to access private routes with invalid jwt token', async () => {
     const user = await factory.create('User', {
@@ -79,9 +79,9 @@ describe('Authentication', () => {
 
     const response = await request(app)
       .get('/dashboard')
-      .set('Authorization', `Bearer ${user.generateToken()}`);
+      .set('Authorization', `Bearer 123123`);
 
     expect(response.status).toBe(401);    
-  })
+  });
 
 })
